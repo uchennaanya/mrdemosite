@@ -1,0 +1,547 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Hind Siliguri", sans-serif, "Open Sans", Inspiration, cursive;
+}
+
+#navHeader {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  padding: 1.5rem  1rem 1rem 0.5rem;
+  align-items: center;
+  width: 100%;
+}
+
+#navHeader a {
+    background: none;
+    text-decoration: none;
+    color: #fefffc;
+    padding: 0;
+}
+
+#logo {
+    width: 50%;
+}
+
+.fa-bars {
+  display: flex;
+  background: #fff;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  padding: 1rem;
+  width: 10%;
+  height: 5vh;
+  z-index: 9999;
+}
+
+.show {
+    display: block;
+    z-index: 2!important;
+    background: rgba(0, 0, 0, 0.9);
+    width: 100vw;
+    padding: 1rem;
+    position: absolute;
+    top: 11vh;
+}
+
+.show li {
+    display: block;
+    z-index: 999999!important;
+}
+
+.hide {
+    display: none;
+    transition: 4s;
+}
+
+.banner {
+  background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)),
+    url("../img/bannerimg.png") no-repeat bottom;
+  background-size: cover;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 1rem;
+  color: #f7f7fc;
+}
+
+.banner h1,
+h2 {
+  text-align: left;
+}
+
+.banner h1 {
+  font-size: 2rem;
+}
+
+.banner a {
+  width: 8.5rem;
+}
+
+.banner p {
+  color: #fefffc;
+  text-align: right;
+  margin-right: 1rem;
+}
+
+.fa-solid {
+  background: silver;
+  color: #000;
+  padding: 0.7rem 1rem;
+  margin: 5rem 1rem 0 0;
+}
+
+.services {
+  background: url("/assets/img/Ellipse5.png") no-repeat center,
+    url("/assets/img/servicesvector.png") no-repeat bottom;
+  margin-top: -90px;
+  z-index: 1;
+  color: #403f3f;
+}
+
+.services h3,
+h4 {
+  text-align: center;
+}
+
+.services h3 {
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.services h4 {
+  color: #07048e;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 32px;
+  padding: 1rem 0 0 0;
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+}
+
+.service aside {
+  display: flex;
+  padding: 2rem 1rem;
+}
+
+.aside {
+  width: 100%;
+}
+
+.service img {
+  width: auto;
+  height: 8vh;
+  padding: 0.5rem;
+  margin: 0.7rem;
+  background: #ccc;
+}
+
+.services a {
+    background: none;
+    color: blue;
+}
+
+.finest_service_wrapper {
+    margin-top: -360px;
+    padding: 0 1rem;
+}
+
+.finestServices h3 {
+  font-weight: 400;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.finestServices h4 {
+  color: #07048e;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 32px;
+  padding: 1rem 0 0 0;
+}
+
+ a {
+  background: #007cc5;
+  color: #000;
+  display: inline-block;
+  text-decoration: none;
+  margin-top: 51.5rem  2rem 1rempx;
+  padding: 0.5rem 1rem;
+}
+
+.desc h3 {
+  text-align: left;
+}
+
+.finestServices .p {
+  text-align: center;
+  margin: 100px 0;
+}
+
+input,
+textarea {
+  display: block;
+  padding: 0.3rem 1rem;
+  margin: 0.4rem 0;
+  width: 100%;
+  background: rgba(196, 196, 196, 0.09);
+  border: 0.1px solid #f7f7fc;
+  border-radius: 4px;
+  color: #fefffc;
+}
+
+textarea {
+  height: 100px;
+}
+
+input[type="submit"] {
+  background: #007cc5;
+  border-radius: 0;
+  border: none;
+  width: auto;
+}
+
+.abtbanner {
+  background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)),
+    url("/assets/img/abtbanner.png") no-repeat center;
+  height: 80vh;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 1rem;
+  padding-left: 1rem;
+}
+
+.abtdesc {
+  margin: 4rem 1rem;
+}
+
+.abtdesc p {
+    font: 2rem;
+    line-height: 2.5rem;
+}
+
+.abtdesc aside {
+  display: flex;
+  justify-content: center;
+  margin-top: 10vh;
+  width: auto;
+}
+
+.abtdesc img {
+  height: 20%;
+  width: 20%;
+  padding: 1rem;
+  background: #ccc;
+  border-radius: 50%;
+  margin: 0 1rem;
+}
+
+.team_members aside {
+  display: flex;
+  padding-left: 0;
+}
+
+.team_members img {
+  background: transparent;
+  width: 25%;
+  height: 10vh;
+}
+
+.aside_p {
+  width: 100%;
+}
+
+.values {
+  background: linear-gradient(272.58deg, #1030a2 -3.47%, #51077e 95.21%);
+  text-align: center;
+  padding: 2rem 0;
+  color: #fff;
+}
+
+.value_items {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 3rem;
+  flex-wrap: wrap;
+}
+
+.unique {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.unique_list {
+  display: block;
+  margin: 1rem;
+  justify-content: space-around;
+}
+.unique_list p {
+  line-height: 45px;
+  width: auto;
+  text-align: left;
+  font-size: 1rem;
+}
+
+.unique_list .fa-clock {
+  color: #1030a2;
+}
+
+.team {
+  text-align: center;
+  margin: 5rem 1rem;
+}
+
+.product_section {
+    padding: 5rem 1rem;
+}
+
+.imgvector img {
+    width: 90%;
+    display: inline-block;
+    margin: -15vh 0 -9vh 10%;
+}
+
+.imgvector2 img {
+    width: 65%;
+    display: inline-block;
+    margin: -7vh 0 -6vh 10%;
+}
+
+.product {
+    display: flex;
+    align-items: center;
+}
+
+.product .img {
+    width: 40%;
+    padding-right: 2rem;
+}
+
+.services_page {
+    padding: 5rem 0;
+}
+
+.services_page div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.services_page img {
+    width: 100%;
+}
+
+.services_page article:nth-child(even) {
+    padding-left: 0;
+}
+
+.services_page article:nth-child(odd) {
+    padding-right: 0;
+    order: 1;
+    -ms-flex-order: 1;
+}
+
+.services_page div img {
+    width: 100%;
+}
+
+footer {
+  background: url("/assets/img/Rectangle15.png") no-repeat top,
+    url("/assets/img/footerimg.png") no-repeat top;
+  color: #fefffc;
+  display: flex;
+  background-size: cover;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+footer i {
+  color: #007cc5;
+  padding: 0.3rem 0.5rem;
+}
+footer p {
+  font-family: "Hind Siliguri";
+  display: flex;
+  color: #ffffff;
+  font-weight: lighter;
+  font-size: 1rem;
+  padding: 0.4rem;
+}
+
+footer h3 {
+  margin: 2rem 0;
+}
+
+@media only screen and (min-width: 768px) {
+  #navHeader {
+    display: flex;
+    padding: 1.5rem 3rem;
+    background: rgba(0, 0, 0, 0);
+  }
+
+  .show {
+    display: inline;
+    z-index: 1;
+    background: none;
+    width: auto;
+    position: static;
+    top: 10vh;
+}
+
+  .show li {
+    display: inline-block!important;
+    padding-left: 1rem;
+}
+
+#logo a{
+    width: 100%;
+    display: inline-block;
+    border: 1px solid white;
+    padding: 0;
+}
+
+.hide {
+    display: inline;
+    transition: 4s;
+}
+
+  .fa-bars {
+    display: none!important;
+  }
+
+  .banner {
+    padding-left: 12rem;
+    background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)),
+      url("../img/bannerimg.png") no-repeat;
+    background-size: 100vw;
+    height: 100vh;
+  }
+  .banner h1 {
+    font-style: Bold;
+    font-size: 4rem;
+  }
+
+  .service {
+    flex-direction: row;
+  }
+  .service aside {
+    padding: 1rem 4rem;
+  }
+  .aside {
+    width: 50%;
+  }
+  .service img {
+    width: 10%;
+    height: 8vh;
+    padding: 0.5rem;
+    margin: 0.7rem;
+    background: #ccc;
+  }
+
+  .finest_service_wrapper {
+    margin-top: -10px;
+    padding: 0 3rem;
+}
+
+  .abtdesc {
+    margin: 4rem 12rem;
+  }
+
+  .vision_mission {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem 0;
+  }
+
+  .abtdesc aside {
+    width: 40vw;
+  }
+
+  .value_items {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 3rem;
+  }
+
+  .unique_list {
+    display: flex;
+    margin: 0 20rem;
+    justify-content: space-around;
+  }
+
+  .unique_list p {
+    line-height: 60px;
+    width: 580px;
+    text-align: left;
+    font-size: 1rem;
+  }
+
+  .team {
+    margin: 5rem 9rem;
+  }
+
+  .team_members aside {
+    padding-left: 4rem;
+  }
+
+  .team_members img {
+    background: transparent;
+    width: 50%;
+    height: 20vh;
+  }
+
+  .product_section {
+    padding: 5rem 11rem;
+}
+
+.services_page div {
+    width: 80%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.services_page img {
+    width: 100%;
+}
+
+.services_page article:nth-child(even) {
+    padding-left: 2rem;
+}
+
+.services_page article:nth-child(odd) {
+    padding-right: 2rem;
+    order: 0;
+    -ms-flex-order: 0;
+}
+
+.services_page div img {
+    width: 40%;
+}
+
+  footer {
+    background: url("/assets/img/Rectangle15.png") no-repeat top,
+      url("/assets/img/footerimg.png") no-repeat top;
+    flex-direction: row;
+    background-size: 100vw;
+    justify-content: space-between;
+    padding: 7rem 5rem 1rem 5rem;
+  }
+}

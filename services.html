@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keyword" content="ICT, Training, Software Development, Hosting, Consulting, M-R International">
+    <title>M-R International about page</title>
+    <script src="https://use.fontawesome.com/0bb1cf78cb.js"></script>
+    <script src="https://kit.fontawesome.com/62b789e43d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <style>
+        .wow:first-child {
+          visibility: hidden;
+        }
+      </style>
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+
+  <script src="/assets/js/wow.min.js"></script>
+  <script>
+  wow = new WOW(
+      {
+        animateClass: 'animated',
+        offset:       100,
+        callback:     function(box) {
+          console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+        }
+      }
+    );
+    wow.init();
+    document.getElementById('moar').onclick = function() {
+      var section = document.createElement('section');
+      section.className = 'section--purple wow fadeInDown';
+      this.parentNode.insertBefore(section, this);
+    };
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Inspiration&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    </head>
+<body>
+    <header id="navHeader">
+        <a id="logo" href="index.html"><img src="./assets/img/logo.png" alt="M-R International"></a>
+        <i class="fas fa-bars" id="toggle"></i>
+        <nav class="show hide" id="show">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="product.html">Products</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="abtbanner">
+            <h1>We Provide Innovative ICT Solutions</h1>
+        </div>
+        <section class="services_page">
+            <div>
+                <img src="./assets/img/software_development.png" alt="Software development">
+                <article>
+                    <h3>
+                        Software Development
+                    </h3>
+                    <p>
+                        we design and develop computer software to meet the needs of individuals, private organisations and public institutions. These solutions are designed to manage their several databases, make their business operations more efficient and make their reporting functions more value adding in the firm’s decision making process. The artificial intelligence features of the software solution we provide our clients enable them monitor their business activities remotely and real-time. Also included  in the bouquet of software we develop are e-commerce platforms, leaning management systems, business enterprise solutions and mobile applications.
+                    </p>
+                </article>
+            </div>
+            <img src="./assets/img/servicevector1.png" alt="Services">
+            <div>
+                <article>
+                    <h3>Training</h3>
+                    we offer standardized and customized Information and Communications Technology trainings to individuals and organisation. Our corporate trainings are designed to suit the preference of customers as we offer on-site and off-site trainings. The area covered by our training programmes includes courses in desktop publishing, programming, web design/development, digital marketing, hardware repairs and networking. We also offer a specialized bouquet of training leading to the award of the International Computer Driving License. Our training programmes are offered from our ultramodern and state of the art technology center located in na serene and secured environment.
+                </article>
+                <img src="./assets/img/training2.png" alt="Training">
+            </div>
+            <img src="./assets/img/servicevector2.png" alt="Services">
+            <div>
+                <img src="./assets/img/hosting2.png" alt="Hosting">
+                <article>
+                    <h3>Hosting</h3>
+                    <p>
+                        we provide hosting services for individuals, small and medium enterprise, and large companies at affordable prices.
+                    </p>
+                </article>
+            </div>
+            <img src="./assets/img/servicevector3.png" alt="">
+            <div>
+                <article>
+                    <h3>
+                        Procurement and Consultancy
+                    </h3>
+                    <p>
+                        Engaging the services of our partners we procure, deliver, install and maintain ICT equipment and facilities at competitive prices. We provide warranty for all supplies made buy us to customers and guaranty the quality of products supplied by us in line with international standards. To ensure optimal benefits from the implementation of ICT projects we provide advisory services to clients. These services include designing, execution and supervision of ICT projects.
+                    </p>
+                </article>
+                <img src="./assets/img/procurement.png" alt="Procurement">
+            </div>
+            <img src="./assets/img/servicevector4.png" alt="Services">
+            <div>
+                <img src="./assets/img/call_center2.png" alt="Call center">
+                <article>
+                    <h3>Call Center Management</h3>
+                    <p>
+                        We provide call managements services to businesses interested in enhancing their customers’ relationship management function and reducing their annual communication budget.
+                    </p>
+                </article>
+            </div>
+        </section>
+    </main>
+    <footer id="contact">
+        <div class="footer">
+            <h3>Contact</h3>
+            <p>
+                <i class="fa fa-location-dot"></i>
+                MRsoft Technology Complex,<br>
+                Plot 3, Road 1 Centenary Garden Estate,<br>
+                Eneka Link Road, Off G.U. Ake Road,<br>
+                Eliozu New Road, Port Harcourt <br>
+                Rivers State, Nigeria.
+            </p>
+            <p>
+                <i class="fa fa-envelope"></i>
+                enquiries@m-rinternational.com
+            </p>
+            <p>
+                <i class="fa fa-phone"></i>
+                +234 9075677971
+            </p>
+        </div>
+        <div>
+            <h3>Quicklinks</h3>
+        </div>
+        <div style="flex-grow: 0.2">
+            <h3>
+                Feedback and Enquiry
+            </h3>
+            <form action="#">
+                <input type="text" placeholder="Name" required name="name" id="name">
+                <input type="tel" required placeholder="Phone No." name="tel" id="tel">
+                <input type="email" placeholder="Email" required name="email" id="email">
+                <input type="text" required placeholder="Product/Services" name="product_services" id="product_services">
+                <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Enter message"></textarea>
+                <input type="submit" name="submit" id="submit" value="Send">
+            </form>
+        </div>
+    </footer>
+    <script src="./assets/js/js.js"></script>
+</body>
+</html>

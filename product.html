@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keyword" content="ICT, Training, Software Development, Hosting, Consulting, M-R International">
+    <title>M-R International about page</title>
+    <script src="https://use.fontawesome.com/0bb1cf78cb.js"></script>
+    <script src="https://kit.fontawesome.com/62b789e43d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <style>
+        .wow:first-child {
+          visibility: hidden;
+        }
+      </style>
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+
+  <script src="/assets/js/wow.min.js"></script>
+  <script>
+  wow = new WOW(
+      {
+        animateClass: 'animated',
+        offset:       100,
+        callback:     function(box) {
+          console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+        }
+      }
+    );
+    wow.init();
+    document.getElementById('moar').onclick = function() {
+      var section = document.createElement('section');
+      section.className = 'section--purple wow fadeInDown';
+      this.parentNode.insertBefore(section, this);
+    };
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Inspiration&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    </head>
+<body>
+    <header id="navHeader">
+        <a id="logo" href="index.html"><img src="./assets/img/logo.png" alt="M-R International"></a>
+        <i class="fas fa-bars" id="toggle"></i>
+        <nav class="show hide" id="show">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="abtbanner">
+            <h1>We Provide Innovative ICT Solutions</h1>
+        </div>
+        <section class="product_section">
+            <div class="product">
+                <img class="img" src="./assets/img/product1.png" alt="Enterprise">
+                <article>
+                    <h3>
+                        MRsoftEBS: Enterprise Business Solution
+                    </h3>
+                    <p>
+                        is an integrated financial management enterprise solution that incorporates the management of the material assets and human resources of an orgnaisation. Its features include the management of the budgetary and financial reporting systems of an organisation.
+                    </p>
+                    <a href="">See Features</a>
+                </article>
+            </div>
+            <div class="imgvector">
+                <img class="" src="./assets/img/Vector11.png" alt="Enterprise solutions">
+            </div>
+            <div class="product">
+                <article>
+                    <h3>
+                        MRsoftEBS: Enterprise Business Solution
+                    </h3>
+                    <p>
+                        is an integrated financial management enterprise solution that incorporates the management of the material assets and human resources of an orgnaisation. Its features include the management of the budgetary and financial reporting systems of an organisation.
+                    </p>
+                    <a href="">See Features</a>
+                </article>
+                <img class="img" src="./assets/img/product2.png" alt="Enterprise">
+            </div>
+            <div class="imgvector2">
+                <img class="" src="/assets/img/Vector12.png" alt="">
+            </div>
+            <div class="product">
+                <img class="img" src="./assets/img/product1.png" alt="Enterprise">
+                <article>
+                    <h3>
+                        MRsoftEBS: Enterprise Business Solution
+                    </h3>
+                    <p>
+                        is an integrated financial management enterprise solution that incorporates the management of the material assets and human resources of an orgnaisation. Its features include the management of the budgetary and financial reporting systems of an organisation.
+                    </p>
+                    <a href="">See Features</a>
+                </article>
+            </div>
+        </section>
+    </main>
+    <footer id="contact">
+        <div class="footer">
+            <h3>Contact</h3>
+            <p>
+                <i class="fa fa-location-dot"></i>
+                MRsoft Technology Complex,<br>
+                Plot 3, Road 1 Centenary Garden Estate,<br>
+                Eneka Link Road, Off G.U. Ake Road,<br>
+                Eliozu New Road, Port Harcourt <br>
+                Rivers State, Nigeria.
+            </p>
+            <p>
+                <i class="fa fa-envelope"></i>
+                enquiries@m-rinternational.com
+            </p>
+            <p>
+                <i class="fa fa-phone"></i>
+                +234 9075677971
+            </p>
+        </div>
+        <div>
+            <h3>Quicklinks</h3>
+        </div>
+        <div style="flex-grow: 0.2">
+            <h3>
+                Feedback and Enquiry
+            </h3>
+            <form action="#">
+                <input type="text" placeholder="Name" required name="name" id="name">
+                <input type="tel" required placeholder="Phone No." name="tel" id="tel">
+                <input type="email" placeholder="Email" required name="email" id="email">
+                <input type="text" required placeholder="Product/Services" name="product_services" id="product_services">
+                <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Enter message"></textarea>
+                <input type="submit" name="submit" id="submit" value="Send">
+            </form>
+        </div>
+    </footer>
+    <script src="./assets/js/js.js"></script>
+</body>
+</html>
