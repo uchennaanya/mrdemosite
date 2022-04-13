@@ -11,7 +11,7 @@ window.onscroll = function () {
       document.getElementById("navHeader").style.backgroundColor =
         "rgba(0, 0, 0, 0.9)";
     } else {
-      document.getElementById("navHeader").style.padding = "1.5rem  2rem 1rem 0.3rem";
+      document.getElementById("navHeader").style.padding = "1.5rem  1rem 1rem 0.3rem";
       document.getElementById("navHeader").style.transition = "1s";
       document.getElementById("navHeader").style.backgroundColor =
         "rgba(0, 0, 0, 0)";

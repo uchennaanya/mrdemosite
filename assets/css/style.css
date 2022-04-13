@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
   font-family: "Hind Siliguri", sans-serif, "Open Sans", Inspiration, cursive;
 }
 
@@ -48,7 +49,7 @@
 }
 
 .show li {
-    display: block;
+    margin: 2vh 0;
     z-index: 999999!important;
 }
 
@@ -282,19 +283,15 @@ input[type="submit"] {
 }
 
 .unique_list {
-  display: block;
-  margin: 1rem;
+  list-style: url('/assets/img/tick.png');
+  display: flex;
+  flex-direction: column;
+  margin:0 0 0 2rem;
   justify-content: space-around;
 }
-.unique_list p {
-  line-height: 45px;
-  width: auto;
-  text-align: left;
-  font-size: 1rem;
-}
 
-.unique_list .fa-clock {
-  color: #1030a2;
+.unique_list li {
+  line-height: 50px;
 }
 
 .team {
@@ -480,16 +477,14 @@ footer h3 {
   }
 
   .unique_list {
-    display: flex;
-    margin: 0 20rem;
+    align-self:baseline;
+    flex-direction: row;
+    justify-content: center;
     justify-content: space-around;
   }
 
-  .unique_list p {
-    line-height: 60px;
-    width: 580px;
-    text-align: left;
-    font-size: 1rem;
+  .unique_list li {
+    line-height: 45px;
   }
 
   .team {
